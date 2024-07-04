@@ -31,17 +31,27 @@ header{
     border-bottom: 1px dashed;
     border-radius: 40px;
 }
-main > h1{
+h1{
     background-color: rgba(137, 43, 226, 0.521);
     border-top: 2px dotted;
 }
 main > article{
     background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 label{
     display: block;
     margin-bottom: 10px;
 }
 form{
+    background-color: aliceblue;
+}
+table, thead{
+    border: 1px solid black;
+    background-color: lightblue;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+.div1{
     background-color: aliceblue;
 }
