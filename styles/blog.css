@@ -1,0 +1,20 @@
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+nav > ul > li{
+    display: inline;
+    margin-right: 25px;
+    
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+.figcaption{
+    margin-left: 195px;
+}
+*{
+    padding-left: 5px;
+    padding-right: 5px;
+}
