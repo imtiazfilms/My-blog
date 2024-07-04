@@ -3,10 +3,17 @@ footer{
     padding: 20px;
     
 }
-nav > ul > li{
-    display: inline;
+nav > ul{
+    display: flex;
+    list-style: none;
     margin-right: 25px;
+    padding-bottom: 10px;
     
+    
+    
+}
+nav li:hover{
+    background-color: lightsteelblue;
 }
 
 nav > ul > li > a{
@@ -23,10 +30,10 @@ form{
     margin-top: 10px;
 }
 header{
+    
     background-color: bisque;
     height: 50px;
     margin-top: 0px;
-    text-align: end;
     border-top: 1px dashed ;
     border-bottom: 1px dashed;
     border-radius: 40px;
@@ -54,4 +61,17 @@ table, thead{
 }
 .div1{
     background-color: aliceblue;
+}
+nav li .dropdown{
+    display: none;
+}
+
+nav li:hover > .dropdown{
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 224);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    list-style: none;
+    padding-right: 10px;
 }
