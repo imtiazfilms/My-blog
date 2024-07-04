@@ -20,7 +20,7 @@ nav > ul > li > a{
     padding-right: 5px;
 }
 form{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 header{
     background-color: bisque;
@@ -41,4 +41,7 @@ main > article{
 label{
     display: block;
     margin-bottom: 10px;
+}
+form{
+    background-color: aliceblue;
 }

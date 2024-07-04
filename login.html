@@ -15,17 +15,42 @@
                 <li><a href="My blog.html">Blogs</a></li>
                 <li><a href="About.html">About</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a href="login.html">Survey</a></li>
             </ul>
         </nav>
     </header>
     <form>
+        <h1 align="center">Input your information</h1>
         <label for="name">Your Name:
         <input type="text" id="name" placeholder="Your Name"></label>
         <label for="email">Your Email:
         <input type="email" name="" id="Email" placeholder="123abc@xyz.com"></label>
         <label for="number">Your Number:
         <input type="tel" name="" id="number" placeholder="Your Number"></label>
+        <fieldset class="gender">
+            <legend>Chose Your Gender</legend>
+            <label for="male">
+                <input type="radio" name="gender" id="male">Male
+            </label>
+            <label for="female">
+                <input type="radio" name="gender" id="female">Female
+            </label>
+            <label for="other">
+                <input type="radio" name="gender" id="other">Other
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend class="social">On which Social media do you follow me?</legend>
+            <label for="facebook">
+                <input type="checkbox" name="social media" id="facebook">Facebook
+            </label>
+            <label for="instagram">
+                <input type="checkbox" name="social media" id="instagram">Instagram
+            </label>
+        </fieldset>
+        <br>
+        <button type="reset" style="background-color: rgba(238, 1, 1, 0.664);">Reset</button>
+        <button type="submit"><a href="My blog.html" style="text-decoration: none; " >Submit</a></button>
     </form>
 </body>
 <footer><small> &copy; All Rights Reserved </small>
